@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mongoose News Scraper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="coontainer-fluid">
+        <div class="jumbotron jumbotron-fluid" id="jumbotron">
+            <div class="container">
+                <h1 class="display-4">NYTimes News Scraper</h1>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="/" role="button">Home</a>
+
+                    <a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape</a>
+
+                    <a class="btn btn-primary btn-lg" href="/saved" role="button">Save</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul>
+                <li>Headline: {{{title}}}</li>
+                <li>Summary: {{{summary}}}</li>
+                <li>Link: {{{url}}}</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
